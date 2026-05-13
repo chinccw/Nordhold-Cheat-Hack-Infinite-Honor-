@@ -19,20 +19,28 @@ label(return)
 newmem:
 
   // R8D is the 'amount' parameter in x64
+  
   mov r8d, #999999   
   
   // Original code we replaced
+  
   mov [rsp+08],rbx
+  
   jmp return
 
 "GameAssembly.dll"+6ED330:
+
   jmp newmem
+  
 return:
 
 [DISABLE]
 "GameAssembly.dll"+6ED330:
+
   // Restore the original instruction
+  
   mov [rsp+08],rbx
+  
 dealloc(newmem)
 
 // ----Code Ends Here----
