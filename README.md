@@ -16,6 +16,7 @@ alloc(newmem, 2048, "GameAssembly.dll")
 label(return)
 
 newmem:
+
   // R8D is the 'amount' parameter in x64
   mov r8d, #999999   
   
