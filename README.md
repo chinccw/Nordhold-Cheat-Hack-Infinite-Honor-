@@ -10,6 +10,7 @@ Get yourself some honor point with Cheat Engine (Nordhold V1.1.1)
 
 
 //-------------------------------------------------
+
 [ENABLE]
 alloc(newmem, 2048, "GameAssembly.dll")
 label(return)
