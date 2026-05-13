@@ -6,7 +6,7 @@ Get yourself some honor point with Cheat Engine (Nordhold V1.1.1)
 3. Open Cheat Engine, Click the First Icon at left-side and choose NordHold.exe.
 4. Click "Memory View" and CTRL+G , go to address GameAssembly.dll+6ED330
 5. CTRL+A , then paste the code below and click "execute/run". (if you want less honor please change the value in code as i have no idea how to revert back the changes)
-6. Try to change your honor value in the honor skill tree (assign/revert skill) and your honor should changed to whatever value you set.
+6. try to refund your perks and your honor should changed to whatever value you set.
 
 
 //----Code Start Here----
