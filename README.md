@@ -12,6 +12,7 @@ Get yourself some honor point with Cheat Engine (Nordhold V1.1.1)
 //----Code Start Here----
 
 [ENABLE]
+
 alloc(newmem, 2048, "GameAssembly.dll")
 
 label(return)
@@ -35,6 +36,7 @@ newmem:
 return:
 
 [DISABLE]
+
 "GameAssembly.dll"+6ED330:
 
   // Restore the original instruction
