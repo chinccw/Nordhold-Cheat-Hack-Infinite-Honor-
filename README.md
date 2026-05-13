@@ -9,7 +9,7 @@ Get yourself some honor point with Cheat Engine (Nordhold V1.1.1)
 6. Try to change your honor value in the honor skill tree (assign/revert skill) and your honor should changed to whatever value you set.
 
 
-//-------------------------------------------------
+//----Code Start Here----
 
 [ENABLE]
 alloc(newmem, 2048, "GameAssembly.dll")
@@ -32,8 +32,8 @@ return:
   // Restore the original instruction
   mov [rsp+08],rbx
 dealloc(newmem)
-// -------------------------------------------------
 
+// ----Code Ends Here----
 
 
 // Tool used to find the address: https://il2cppdumper.com/
